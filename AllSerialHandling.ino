@@ -5,13 +5,6 @@
 /////////  Set it to 'true' or 'false' when it's declared at start of code.  
 /////////
 
-void serialOutput(){   // Decide How To Output Serial. 
- if (serialVisual == true){  
-     arduinoSerialMonitorVisual('-', Signal);   // goes to function that makes Serial Monitor Visualizer
- } else{
-      sendDataToSerial('S', Signal);     // goes to sendDataToSerial function
- }        
-}
 
 
 //  Decides How To OutPut BPM and IBI Data
